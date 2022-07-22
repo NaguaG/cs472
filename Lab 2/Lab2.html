@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+    background-color: black;
+    color: white;
+    
+    }
+    section {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    article {
+        flex: 200px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        
+    }
+    .grid-item {
+        border: 1px solid rgba(0, 0, 0, 0.8);
+  
+}
+.tweet {
+    display: inline-block;
+}
+.btn {
+    border-radius: 40%;
+    background-color: orange;
+    color: white;
+}
+.int {
+    background-color: gray;
+}
+.ftr {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+  
+</style>
+<body>
+    <section>
+    <article>
+        <h2>About Us</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque, quibusdam quasi vitae delectus aliquid repellat tempore animi natus neque. Atque saepe tempora perferendis aspernatur architecto facere iure nostrum. Exercitationem.</p><br><br>
+        <div class="phone"  style="display: flex; gap: 10px;">
+            <i class="fa fa-phone" style="color: orange;"></i>
+            <span>+(425) 469-6267</span>
+        </div>
+        <div class="email"  style="display: flex; gap: 10px;">
+            <i class="fa fa-envelope" style="color: orange;"></i>
+            <span> nganbaatar@miu.edu</span>
+        </div><br>
+        <input class="int" type="text" name="q" value="enter your e-mail"> 
+        <button class="btn">Send</button>
+    </article>
+    <article>
+        <h2>Latest Tweet</h2>
+        <div class="tweet" style="display: flex; gap: 10px;">
+        <i class="fa fa-twitter"></i>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae ab nisi omnis, provident suscipit impedit doloremque molestias soluta, fugit</span>
+    </div>
+    <br>
+    <div class="tweet" style="display: flex; gap: 10px;">
+        <i class="fa fa-twitter"></i>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae ab nisi omnis, provident suscipit impedit doloremque molestias soluta, fugit</span>
+    </div>
+    <br>
+    <div class="tweet" style="display: flex; gap: 10px;">
+        <i class="fa fa-twitter"></i>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod beatae ab nisi omnis, provident suscipit impedit doloremque molestias soluta, fugit</span>
+    </div>
+        </ul>
+    </article>
+    <article>
+        <h2>Instagram</h2>
+        <div class="grid-container">
+        <img class="grid-item" src="./41c007a025e7ab01d5673dece43006ad.jpg" alt="travel1" width="150px" height="100px">
+        <img class="grid-item" src="./download.jpg" alt="travel2" width="150px" height="100px">
+        <img class="grid-item" src="./viajar.png.png" alt="travel3" width="150px" height="100px">
+        <img class="grid-item" src="./woman-red-dress-santorini-greece-shutterstock_1048935941.jpg" alt="travel4" width="150px" height="100px">
+    </div>
+    </article>
+    </section>
+    <hr>
+    <footer>
+        <div class="ftr">
+            <label>Home</label>
+            <label>About</label>
+            <label>Our Works</label>
+            <label>Services</label>
+            <label>Blog</label>
+            <label>Contacts</label>
+        </div>
+            <div class="copyright">
+            <p>ColorLib</p>
+        
+        </div>
+        
+    </footer>
+</body>
+
+</html>
